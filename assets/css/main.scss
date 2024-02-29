@@ -1,0 +1,95 @@
+---
+# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
+# only main files contain this front matter, not partials.
+---
+
+/* container */
+.responsive-two-columns {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+/* columns */
+.responsive-two-columns > * {
+    width:100%;
+    padding:1rem;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .responsive-two-columns > * {
+        width:50%;
+    }
+}
+
+/* column container */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    align-items: center;
+    margin-top: 0.2rem;
+  
+  }
+  
+.column50 {
+flex: 50%;
+max-width: 50%;
+padding: 0 4px;
+}
+  
+.column30 {
+flex: 30%;
+max-width: 30%;
+padding: 0 4px;
+}
+
+.column70 {
+flex: 70%;
+max-width: 70%;
+padding: 0 4px;
+}
+
+.column40 {
+    flex: 40%;
+    max-width: 40%;
+    padding: 0 4px;
+}
+.column60 {
+    flex: 60%;
+    max-width: 60%;
+    padding: 0 4px;
+}
+            
+
+.column img {
+margin-top: 8px;
+vertical-align: middle;
+
+}
+
+/* Responsive layout - makes a one column-layout */
+@media (max-width: 1000px) {
+    .column50 {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .column30 {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .column70 {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .column40 {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .column60 {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+@import "hydeout";

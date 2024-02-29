@@ -1,0 +1,21 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
+title:            'How Far Does Reflective Equilibrium Take Us?'
+description: >- # this means to ignore newlines
+  Investigating the power of a philosophical method
+url:              https://re-models.github.io
+#baseurl:          '/hydeout'
+ 
+
+plugins:
+  - jekyll-gist
+
+# Sidebar link settings
+sidebar_home_link:  true
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.

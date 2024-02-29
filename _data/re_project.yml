@@ -1,0 +1,24 @@
+links:
+  funding_dfg: 'https://www.dfg.de/'  
+  funding_snsf: 'https://www.snf.ch/'
+  re_conference: 'https://www.philosophie.unibe.ch/research/projects/re2022/index_eng.html'
+  other_project1: 'https://www.philosophie.unibe.ch/forschung/forschungsprojekte/das_ueberlegungsgleichgewicht/index_ger.html'
+  re_github: 'https://github.com/re-models/'
+copyright:
+  year: 2024
+  name: 'CC-BY 4.0' 
+  link: 'https://creativecommons.org/licenses/by/4.0/'
+team:
+  beisbart:
+    link_institution: 'https://www.unibe.ch/index_ger.html'
+    link_department: 'https://www.philosophie.unibe.ch/index_ger.html'
+    link_website_professional: 'https://www.philosophie.unibe.ch/ueber_uns/personen/beisbart/index_ger.html'
+  betz:
+    link_institution: 'https://www.kit.edu/'
+    link_department: 'https://debatelab.philosophie.kit.edu/'
+    link_website_professional: 'https://www.philosophie.kit.edu/mitarbeiter_betz_gregor.php'
+  brun:
+    link_institution: 'https://www.unibe.ch/index_ger.html'
+    link_department: 'https://www.philosophie.unibe.ch/index_ger.html'
+    link_website_professional:
+  
