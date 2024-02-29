@@ -1,6 +1,6 @@
 # RE-Models.github.io
 
-Project Webpage of the SNFS/DFG Project [https://re-models.github.io/]("How Far Does Reflective Equilibrium Take Us?")
+Project Webpage of the SNFS/DFG Project ["How Far Does Reflective Equilibrium Take Us?"](https://re-models.github.io/).
 
 This website is based on the [Jekyll](https://jekyllrb.com/) theme [Hydeout](https://github.com/fongandrew/hydeout). 
 
