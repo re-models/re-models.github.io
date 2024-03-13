@@ -4,6 +4,7 @@ links:
   re_conference: 'https://www.philosophie.unibe.ch/research/projects/re2022/index_eng.html'
   other_project1: 'https://www.philosophie.unibe.ch/forschung/forschungsprojekte/das_ueberlegungsgleichgewicht/index_ger.html'
   re_github: 'https://github.com/re-models/'
+  rethon_github: 'https://re-models.github.io/rethon/'
 copyright:
   year: 2024
   name: 'CC-BY 4.0' 
