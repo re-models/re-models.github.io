@@ -3,7 +3,7 @@
 # The field `type` can be one of [paper, blogpost, student_thesis, doctoral_thesis, book, other]. 
 # The field `project` should be used to assign publication to one of the projects. (One of [how_far, revision, reconception, other].) 
 # If an abstract is provided, the publication should have an id via the field `header_id` 
-# (which is used internally to link to the corresponding link details-subsection).
+# (which is used internally to link to the corresponding details-subsection).
 # ########################################
 
 
