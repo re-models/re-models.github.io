@@ -1,5 +1,24 @@
-# types: paper, blogpost, student_theses, doctoral_thesis, book, other, 
-# project_internal: true/false 
+# ########################################
+# Hints for adding/updating publications:
+# The field `type` can be one of [paper, blogpost, student_thesis, doctoral_thesis, book, other]. 
+# The field `project` should be used to assign publication to one of the projects. (One of [how_far, revision, reconception, other].) 
+# If an abstract is provided, the publication should have an id via the field `header_id` 
+# (which is used internally to link to the corresponding link details-subsection).
+# ########################################
+
+
+projects:
+  - how_far:
+    id: 'how_far'
+    title: 'How Far Does Reflective Equilibrium Take Us?'
+  - reconception:
+    id: 'reconception'
+    title: 'Reflective Equilibrium -- Reconception and Application'
+  - revision:
+    id: 'revision'
+    title: 'Reflective Equilibrium Revisited'
+  - other:
+    id: 'other'
 
 publications:
   - title: 'Assessing a Formal Model of Reflective Equilibrium'
@@ -8,86 +27,129 @@ publications:
     citation: 'Freivogel, A., and Cacean, S. 2024. Assessing a Formal Model of Reflective Equilibrium.'
     link: 'https://re-models.github.io/re-technical-report/'
     type: 'paper'
-    project_internal: true
+    project: 'how_far'
   - title: 'Overlapping consensus in pluralist societies: simulating Rawlsian full reflective equilibrium'
     header_id: 'lohse_overlapping_2023'
     abstract: 'The fact of reasonable pluralism in liberal democracies threatens the stability of such societies. John Rawls proposed a solution to this problem: The different comprehensive moral doctrines endorsed by the citizens overlap on a shared political conception of justice, e.g. his justice as fairness. Optimally, accepting the political conception is for each citizen individually justified by the method of wide reflective equilibrium. If this holds, society is in full reflective equilibrium. Rawls does not in detail investigate the conditions under which a full reflective equilibrium is possible or likely. This paper outlines a new strategy for addressing this open question by using the formal model of reflective equilibrium recently developed by Beisbart et al. First, it is argued that a bounded rationality perspective is appropriate which requires certain changes in the model. Second, the paper rephrases the open question about Rawlsian full reflective equilibrium in terms of the model. The question is narrowed down by focusing on the inferential connections between comprehensive doctrines and political conception. Rawls himself makes a demanding assumption about which connections are necessary for a full reflective equilibrium. Third, the paper presents a simulation study design that is focused on simplicity. The results are discussed, they fit with Rawls’s assumption. However, because of the strong idealisations, they provide a useful benchmark rather than a final answer. The paper presents suggestions for more elaborate study designs.'
     citation: 'Lohse, R. (2023). Overlapping consensus in pluralist societies: Simulating Rawlsian full reflective equilibrium. Synthese, 203(1), 11.'
     link: 'https://doi.org/10.1007/s11229-023-04415-9'
     type: 'paper'
-    project_internal: true
+    project: 'how_far'
   - title: 'Is there a defensible conception of reflective equilibrium?'
     header_id: 'beisbart_is_2024'
     abstract: 'The goal of this paper is to re-assess reflective equilibrium (“RE”). We ask whether there is a conception of RE that can be defended against the various objections that have been raised against RE in the literature. To answer this question, we provide a systematic overview of the main objections, and for each objection, we investigate why it looks plausible, on what standard or expectation it is based, how it can be answered and which features RE must have to meet the objection. We find that there is a conception of RE that promises to withstand all objections. However, this conception has some features that may be unexpected: it aims at a justification that is tailored to understanding and it is neither tied to intuitions nor does it imply coherentism. We conclude by pointing out a cluster of questions we think RE theorists should pay more attention to.'
     citation: 'Beisbart, C., & Brun, G. (2024). Is there a defensible conception of reflective equilibrium? Synthese, 203(3), 79.'
     link: 'https://doi.org/10.1007/s11229-024-04495-1'
     type: 'paper'
-    project_internal: true
+    project: 'how_far'
   - title: 'Does reflective equilibrium help us converge?'
     header_id: 'freivogel_does_2023'
     abstract: 'I address the worry that reflective equilibrium is too weak as an account of justification because it fails to let differing views converge. I take up informal aspects of convergence and operationalise them in a formal model of reflective equilibrium. This allows for exploration by the means of computer simulation. Findings show that the formal model does not yield unique outputs, but still boosts agreement. I conclude from this that reflective equilibrium is best seen as a pluralist account of justification that cannot be accused of resulting in an “anything goes” relativism.'
     citation: 'Freivogel, A. (2023). Does reflective equilibrium help us converge? Synthese, 202(6), 171.'
     link: 'https://doi.org/10.1007/s11229-023-04375-0'
     type: 'paper'
-    project_internal: true
+    project: 'how_far'
   - title: 'Making Reflective Equilibrium Precise. A Formal Model.'
     header_id: 'bbb_2021'
     abstract: 'Reflective equilibrium (RE) is often regarded as a powerful method in ethics, logic, and even philosophy in general. Despite this popularity, characterizations of the method have been fairly vague and unspecific so far. It thus may be doubted whether RE is more than a jumble of appealing but ultimately sketchy ideas that cannot be spelled out consistently. In this paper, we dispel such doubts by devising a formal model of RE. The model contains as components the agent’s commitments and a theory that tries to systematize the commitments. It yields a precise picture of how the commitments and the theory are adjusted to each other. The model differentiates between equilibrium as a target state and the dynamic equilibration process. First solutions to the model, obtained by computer simulation, show that the method allows for consistent specification and that the model’s implications are plausible in view of expectations on RE. In particular, the mutual adjustment of commitments and theory can improve one’s commitments, as proponents of RE have suggested. We argue that our model is fruitful not only because it points to issues that need to be dealt with for a better understanding of RE, but also because it provides the means to address these issues.'
     citation: 'Beisbart, Claus; Betz, Gregor; Brun, Georg (2021). Making Reflective Equilibrium Precise. A Formal Model. *Ergo* 8/15, 441--72.'
     link: 'https://doi.org/10.3998/ergo.1152'
     type: 'paper'
-    project_internal: true
+    project: 'how_far'
   - title: 'Modelling Reflective Equilibrium with Belief Revision Theory'
     header_id: 'freivogel_2021'
     abstract: 'This article brings together two different topics: reflective equilibrium (RE) and belief revision theory (BRT). RE is a popular method of justification in many areas of philosophy, it involves a process of mutual adjustments striving for a state of coherence, but it lacks formally rigorous elaborations and faces severe criticism. To elucidate core elements of RE and provide a solid basis to address objections, a formal model of RE within BRT is presented. A fruitful starting point to the formalization of RE is Olsson’s coherentist interpretation of semi-revision, but it does not come with a comparative notion of stability. This paper develops an account of comparative stability in an RE setting for belief changing operations, which satisfy postulates of rational belief change, and characterize RE states and processes.'
     citation: 'Freivogel, Andreas. 2021. “Modelling Reflective Equilibrium with Belief Revision Theory”. In Blicha, Martin; Igor Sedlár (eds). 2021. *The Logica Yearbook 2020*. London: College Publications. 65--80.'
     link: 'https://boris.unibe.ch/167511/'
     type: 'paper'
-    project_internal: true
-  - title: 'Re-Engineering Contested Concepts. A Reflective-Equilibrium Approach. Synthese.'
+    project: 'how_far'
+  - title: 'Re-Engineering Contested Concepts. A Reflective-Equilibrium Approach.'
     header_id: 'brun_2022'
     abstract: 'Social scientists, political scientists and philosophers debate key concepts such as democracy, power and autonomy. Contested concepts like these pose questions: Are terms such as “democracy” hopelessly ambiguous? How can two theorists defend alternative accounts of democracy without talking past each other? How can we understand debates in which theorists disagree about what democracy is? This paper first discusses the popular strategy to answer these questions by appealing to Rawls’s distinction between concepts and conceptions. According to this approach, defenders of rival conceptions of, e.g. justice can disagree without talking past each other because they share the concept of justice. It is argued that this idea is attractive but limited in application and that it fails to do justice to the dynamic and normative aspects of concept formation. Reflective equilibrium is then suggested as an alternative approach. It replaces the static contrast between a conceptual ‘core’ and competing conceptions by a dynamic perspective of concept formation as a partly normative undertaking: pre-theoretic language use and commitments can provide a shared starting point for developing alternative accounts which yield different concepts of, e.g. justice. This perspective provides a new understanding of how it is possible that different theorists defend rival accounts of, e.g. justice, without talking past each other.'
-    citation: 'Brun, Georg. 2022.  Re-Engineering Contested Concepts. A Reflective-Equilibrium Approach. Synthese.'
-    link: 'https://www.georgbrun.ch/publications/Brun-Re-EngineeringContestedConcepts.pdf'
+    citation: 'Brun, Georg. 2022.  Re-Engineering Contested Concepts. A Reflective-Equilibrium Approach. Synthese, 200, 168.'
+    link: 'https://link.springer.com/article/10.1007/s11229-022-03556-7'
+    download_link: 'https://www.georgbrun.ch/publications/Brun-Re-EngineeringContestedConcepts.pdf'
     type: 'paper'
-    project_internal: false
+    project: 'other'
   - title: 'Applying Reflective Equilibrium. Towards the Justification of a Precautionary Principle.'
     header_id: 'rechnitzer_2022'
     abstract: 'This open access book provides the first explicit case study for an application of the method of reflective equilibrium (RE), using it to develop and defend a precautionary principle. It thereby makes an important and original contribution to questions of philosophical method and methodology. The book shows step-by-step how RE is applied, and develops a methodological framework which will be useful for everyone who wishes to use reflective equilibrium. With respect to precautionary principles, the book demonstrates how a rights-based precautionary principle can be constructed and defended. The case study succeeds in demonstrating that RE can be successfully applied and puts real constraints on the justification process. This is all the more remarkable as the case study was designed as an open-ended process, without presupposing any specific results. This book will be highly relevant both to people interested in philosophical methodology and epistemology, as well as to researchers who are interested in using philosophical methods and tools and applying them to practical problems.'
     citation: 'Tanja Rechnitzer. 2022. Applying Reflective Equilibrium. Towards the Justification of a Precautionary Principle. Springer.'
     link: 'https://link.springer.com/book/10.1007/978-3-031-04333-8'
     type: 'paper'
-    project_internal: false
+    project: 'other'
   - title: 'Reflective equilibrium and understanding'
     header_id: 'baumberger_reflective_2020'
     abstract: 'Elgin has presented an extensive defence of reflective equilibrium embedded in an epistemology which focuses on objectual understanding rather than ordinary propositional knowledge. This paper has two goals: to suggest an account of reflective equilibrium which is sympathetic to Elgin’s but includes a range of further developments, and to analyse its role in an account of understanding. We first address the structure of reflective equilibrium as a target state and argue that reflective equilibrium requires more than an equilibrium in the sense of a coherent position (i.e. an agreement of commitments, theory and background theories). On the one hand, the position also needs to be stable between a ‘conservative’ pull of input commitments and a ‘progressive’ pull of epistemic goals; on the other hand, reflective equilibrium requires that enough of the resulting commitments have some credibility independent of the coherence of the position. We then turn to the dynamics of reflective equilibrium, the process of mutual adjustment of commitments and theories. Here, the most pressing internal challenges for defenders of reflective equilibrium arise: to characterize this process more exactly and to explain its status in relation to reflective equilibrium as a target state. Finally, we investigate the role of reflective equilibrium in Elgin’s account of understanding and argue that objectual understanding cannot be explained in terms of reflective equilibrium alone. An epistemic agent who understands a subject matter by means of a theory also needs to be able to use this theory and the theory needs to meet some external rightness condition.'
-    citation: 'Baumberger, C., & Brun, G. 2020. Reflective equilibrium and understanding. Synthese.'
+    citation: 'Baumberger, Christoph; Georg Brun. 2021. “Reflective Equilibrium and Understanding”. Synthese. 198, 7923–47.'
     link: 'https://doi.org/10.1007/s11229-020-02556-9'
     type: 'paper'
-    project_internal: false
+    project: 'other'
   - title: 'Debatten mit einem RE-Modell besser verstehen. Eine explorative Anwendung des formalen RE-Modells von Beisbart, Betz und Brun. (BA thesis)' 
     citation: 'Noah Werder. 2023. Debatten mit einem RE-Modell besser verstehen. Eine explorative Anwendung des formalen RE-Modells von Beisbart, Betz und Brun. (BA thesis)'
     type: 'student_thesis'
-    project_internal: true
+    project: 'how_far'
   - title: 'A Robust Model for the Reflective Equilibrium of Goodman and Rawls (MA thesis)'
     citation: 'Alexander Koch. 2022. A Robust Model for the Reflective Equilibrium of Goodman and Rawls (MA thesis)'
     type: 'student_thesis'
     project_internal: true
+    project: 'how_far'
   - title: 'Ein realistischeres Modell des Überlegungsgleichgewichts (BA thesis)'
     citation: 'Sebastian Flick. 2022. Ein realistischeres Modell des Überlegungsgleichgewichts (BA thesis)'
     type: 'student_thesis'
-    project_internal: true
+    project: 'how_far'
   - title: 'Der richtige Weg ist kein Spaziergang. Warum das Überlegungsgleichgewicht zur Rechtfertigung unserer moralischen Urteile führen kann.'
     citation: 'Claus Beisbart. 2020. Der richtige Weg ist kein Spaziergang. Warum das Überlegungsgleichgewicht zur Rechtfertigung unserer moralischen Urteile führen kann.'
     date: '18. Aug. 2020'
     link: 'https://www.praefaktisch.de/methoden-der-praktischen-philosophie/der-richtige-weg-ist-kein-spaziergang-warum-das-ueberlegungsgleichgewicht-zur-rechtfertigung-unserer-moralischen-urteile-fuehren-kann/'
     type: 'blogpost'
-    project_internal: true
+    project: 'how_far'
   - title: 'Das Überlegungsgleichgewicht -- Was genau ist das?'
     date: '01. Sep. 2020'
     citation: 'Georg Brun. 2020. Das Überlegungsgleichgewicht -- Was genau ist das?'
     link: 'https://www.praefaktisch.de/methoden-der-praktischen-philosophie/das-ueberlegungsgleichgewicht-was-genau-ist-das/'
     type: 'blogpost'
-    project_internal: true
-
+    project: 'how_far'
+  - title: 'Kritische Selbstreflexion, vernünftige Meinungsbildung und argumentative Kompetenzen'
+    header_id: 'brun_kritische_2023'
+    citation: 'Brun, Georg; Dominique Kuenzle. 2023. “Kritische Selbstreflexion, vernünftige Meinungsbildung und argumentative Kompetenzen”. In Löwenstein, David; Donata Romizi; Jonas Pfister (eds). Argumentieren im Philosophie- und Ethikunterricht. Grundlagen, Anwendungen, Grenzen. Göttingen: V&R unipress / Vienna University Press. 19–37.'
+    abstract: 'Es ist unbestritten, dass kritische Selbstreflexion und vernünftige Meinungsbildung zu den allgemeinen Bildungszielen gehören. Argumentative Fähigkeiten sind dafür unerlässlich, weil sie immer eine wesentliche Rolle spielen, wenn es darum geht, ein Sachgebiet anhand einer Theorie zu verstehen. Der Beitrag zeigt dies unter Rückgriff auf die erkenntnistheoretische Idee des Überlegungsgleichgewichts, illustriert die Funktion argumentativer Fähigkeiten am Beispiel des anthropogenen Klimawandels und schlägt einige institutionelle und curriculare Konsequenzen vor.'
+    link: 'https://www.doi.org/10.14220/9783737016292.19'
+    type: 'paper'
+    project: 'how_far'
+  - title: 'Reflective Equilibrium: Conception, Formalization, Application.'
+    citation: 'Brun, G.; Betz, G. & Beisbart, C. (eds). Reflective Equilibrium: Conception, Formalization, Application. Synthese.'
+    type: 'book'
+    link: 'https://link.springer.com/collections/hdicfeahgd'
+    project: 'how_far'
+  - title: 'Dimensions of Objectual Understanding'
+    header_id: 'baumberger_dim_2016'
+    citation: 'Baumberger, Christoph; Brun, Georg. 2016. "Dimensions of Objectual Understanding". In Grimm, Stephen; Christoph Baumberger; Sabine Ammon (eds). Explaining Understanding. New Perspectives from Epistemology and Philosophy of Science. New York: Routledge. 165–89'
+    abstract: 'In science and philosophy, a relatively demanding notion of understanding is of central interest: an epistemic subject understands a subject matter by means of a theory. This notion can be explicated in a way which resembles JTB analyses of knowledge. The explication requires that the theory answers to the facts, that the subject grasps the theory, is committed to the theory and justified in the theory. In this paper, we focus on the justification condition and argue that it can be analysed with reference to the idea of a reflective equilibrium.'
+    link: 'https://www.routledge.com/Explaining-Understanding-New-Perspectives-from-Epistemology-and-Philosophy/Grimm-Baumberger-Ammon/p/book/9781138921931'
+    download_link: 'https://georgbrun.ch/publications/Baumberger-Brun-DimensionsOfObjectualUnderstanding.pdf'
+    type: 'paper'
+    project: 'other' 
+  - title: 'Conceptual Re-Engineering: From Explication to Reflective Equilibrium'
+    citation: 'Brun, Georg. 2020. "Conceptual Re-Engineering: From Explication to Reflective Equilibrium". Synthese 197, 925–54.'
+    header_id: 'brun_conceptual_2020'
+    abstract: 'Carnap and Goodman developed methods of conceptual re-engineering known respectively as explication and reflective equilibrium. These methods aim at advancing theories by developing concepts that are simultaneously guided by pre-existing concepts and intended to replace these concepts. This paper shows that Carnap’s and Goodman’s methods are historically closely related, analyses their structural interconnections, and argues that there is great systematic potential in interpreting them as aspects of one method, which ultimately must be conceived as a component of theory development. The main results are: an adequate method of conceptual re-engineering must focus not on individual concepts but on systems of concepts and theories; the linear structure of Carnapian explication must be replaced by a process of mutual adjustments as described by Goodman; Carnap’s condition of similarity can be analysed into two components, one securing a relation to the specific extensions of the pre-existing concepts, one regulating the transition to the new system of concepts; these two criteria of adequacy can be built into Goodman’s account of reflective equilibrium to ensure that the resulting concepts promote theoretical virtues while being sufficiently similar to the concepts we started out with.'
+    link: 'https://www.doi.org/10.1007/s11229-017-1596-4'
+    type: 'paper'
+    project: 'other' 
+  - title: 'Reflective Equilibrium without Intuitions?'
+    header_id: 'brun_reflective_2014'
+    citation: 'Brun, Georg. 2014. “Reflective Equilibrium without Intuitions?”. Ethical Theory and Moral Practice 17, 237–52. '
+    abstract: 'In moral epistemology, the method of reflective equilibrium is often characterized in terms of intuitions or understood as a method for justifying intuitions. An analysis of reflective equilibrium and current theories of moral intuitions reveals that this picture is problematic. Reflective equilibrium cannot be adequately characterized in terms of intuitions. Although the method presupposes that we have initially credible commitments, it does not presuppose that they are intuitions. Nonetheless, intuitions can enter the process of developing a reflective equilibrium and, if the process is successful, be justified. Since the method of reflective equilibrium does not essentially involve intuitions, it does not constitute a form of intuitionism in any substantial sense. It may be classified as intuitionist only in the minimal sense of not reducing justification to a matter of inference relations alone.'
+    link: 'http://dx.doi.org/10.1007/s10677-013-9432-5'
+    download_link: 'https://georgbrun.ch/publications/Brun-RE&Intuitions.pdf'
+    type: 'paper'
+    project: 'other' 
+  - title: 'Turning the Trolley with Reflective Equilibrium'
+    header_id: 'rechnitzer_turning_2022'
+    citation: 'Rechnitzer, Tanja. 2022. “Turning the Trolley with Reflective Equilibrium”. Synthese 200:272.'
+    abstract: 'Reflective equilibrium (RE)—the idea that we have to justify our judgments and principles through a process of mutual adjustment—is taken to be a central method in philosophy. Nonetheless, conceptions of RE often stay sketchy, and there is a striking lack of explicit and traceable applications of it. This paper presents an explicit case study for the application of an elaborate RE conception. RE is used to reconstruct the arguments from Thomson’s paper “Turning the Trolley” for why a bystander must not divert a runaway trolley from five workmen onto one. Analyzing Thomson’s resulting position with the RE-criteria has two main results: Firstly, the adjustment of one of her commitments can be defended. Secondly, no justified position in RE was reached. With respect to RE as a method, the main results from this application are: (1) There is at least one conception of RE that is sufficiently specified to be applicable; (2) the RE criteria put real constraints on the process of justification; and (3) an explicit application of RE has benefits in terms of clarity while at the same time providing guidance for how the justificatory process could be continued.'
+    link: 'https://doi.org/10.1007/s11229-022-03762-3'
+    type: 'paper'
+    project: 'other' 
 
