@@ -6,7 +6,6 @@
 # (which is used internally to link to the corresponding details-subsection).
 # ########################################
 
-
 projects:
   - how_far:
     id: 'how_far'
@@ -75,7 +74,7 @@ publications:
     abstract: 'This open access book provides the first explicit case study for an application of the method of reflective equilibrium (RE), using it to develop and defend a precautionary principle. It thereby makes an important and original contribution to questions of philosophical method and methodology. The book shows step-by-step how RE is applied, and develops a methodological framework which will be useful for everyone who wishes to use reflective equilibrium. With respect to precautionary principles, the book demonstrates how a rights-based precautionary principle can be constructed and defended. The case study succeeds in demonstrating that RE can be successfully applied and puts real constraints on the justification process. This is all the more remarkable as the case study was designed as an open-ended process, without presupposing any specific results. This book will be highly relevant both to people interested in philosophical methodology and epistemology, as well as to researchers who are interested in using philosophical methods and tools and applying them to practical problems.'
     citation: 'Tanja Rechnitzer. 2022. Applying Reflective Equilibrium. Towards the Justification of a Precautionary Principle. Springer.'
     link: 'https://link.springer.com/book/10.1007/978-3-031-04333-8'
-    type: 'paper'
+    type: 'book'
     project: 'reconception'
   - title: 'Reflective equilibrium and understanding'
     header_id: 'baumberger_reflective_2020'
@@ -130,7 +129,7 @@ publications:
     type: 'paper'
     project: 'reconception' 
   - title: 'Thought Experiments in Ethics'
-    header_id: 'brun_TE_2018'
+    header_id: 'brun_te_2018'
     citation: 'Brun, Georg. 2018. "Thought Experiments in Ethics". In Stuart, Michael T.; Fehige, Yiftach; Brown, James Robert (eds). The Routledge Companion to Thought Experiments. Abingdon/New York: Routledge. 195–210.'
     abstract: 'This chapter suggests a scheme of reconstruction, which explains how scenarios, questions and arguments figure in thought experiments. It then develops a typology of ethical thought experiments according to their function, which can be epistemic, illustrative, rhetorical, heuristic or theory-internal. Epistemic functions of supporting or refuting ethical claims rely on metaethical assumptions, for example, an epistemological background of reflective equilibrium. In this context, thought experiments may involve intuitive as well as explicitly argued judgements; they can be used to generate moral commitments, to explore consequences of moral theories, and to show inconsistencies within or between moral commitments and moral theory; but the results of thought experiments by themselves do not settle what is epistemically justified and may also be rejected. Finally, some prominent challenges are discussed: do unrealistic scenarios undermine epistemic thought experiments? Are ethical thought experiments misleading? Do they rely on weak analogies? Are there specifically moral objections to ethical thought experiments?'
     link: 'https://www.routledge.com/The-Routledge-Companion-to-Thought-Experiments/Stuart-Fehige-Brown/p/book/9780415735087'
@@ -154,7 +153,7 @@ publications:
     project: 'revision' 
   - title: 'Logical Expressivism, Logical Theory and the Critique of Inferences'
     header_id: 'brun_expressivism_2019'
-    citation: 'Brun, Georg. 2019. “Logical Expressivism, Logical Theory and the Critique of Inferences”. Synthese 196, 4493–4509.'
+    citation: 'Brun, Georg. 2019. Logical Expressivism, Logical Theory and the Critique of Inferences. Synthese 196, 4493-4509.'
     abstract: 'The basic idea of logical expressivism in the Brandomian tradition is that logic makes inferential relations explicit and thereby accessible to critical discussion. But expressivists have not given a convincing explanation of what the point of logical theories is. Peregrin provides a starting point by observing a distinction between making explicit and explication in Carnap’s sense of replacing something unclear and vague by something clear and exact. Whereas logical locutions make inferential relations explicit within a language, logical theories use formal languages to explicate inferential roles and meanings of ordinary-language expressions. But Peregrin also holds that the whole point of logical theories is to provide perspicuous models of inferential structures in ordinary language practice. This turns explication into a mere continuation of making explicit by other means, and it leads to a one-sided conception of logic which has no room for evaluating inferential practice in light of logical theories. As a more convincing alternative, I suggest that expressivists rely on the method of reflective equilibrium. This approach is closely related to Carnapian explication, but it has the potential of correcting informal inferential practice without dubious ambitions to replace ordinary languages by logical formalisms.'
     link: 'https://doi.org/10.1007/s11229-017-1662-y'
     download_link: 'https://georgbrun.ch/publications/Brun-LogicalExpressivismLogicalTheoryAndTheCritiqueOfInferences.pdf'
@@ -173,5 +172,4 @@ publications:
     abstract: 'The precautionary principle (PP) is an influential principle for making decisions when facing uncertain, but potentially severe, harm. However, there is a persistent disagreement about what the principle entails, exactly. It exists in a multitude of formulations and has potentially conflicting ideas associated with it. Is there even such a thing as “the precautionary principle”? This paper analyses the debate between unificationists and pluralists about “the PP”, arguing that the debate is hindered by neglecting the question of justification. It introduces reflective equilibrium as a method of justification, and sketches how it could be applied to justify a PP.'
     link: 'https://doi.org/10.1007/s11406-022-00582-0'
     type: 'paper'
-    project: 'reconception' 
-
+    project: 'reconception'
