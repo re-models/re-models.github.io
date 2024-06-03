@@ -13,13 +13,17 @@ team:
   beisbart:
     link_institution: 'https://www.unibe.ch/index_ger.html'
     link_department: 'https://www.philosophie.unibe.ch/index_ger.html'
-    link_website_professional: 'https://www.philosophie.unibe.ch/ueber_uns/personen/beisbart/index_ger.html'
+    link_website: 'https://www.philosophie.unibe.ch/ueber_uns/personen/beisbart/index_ger.html'
   betz:
     link_institution: 'https://www.kit.edu/'
     link_department: 'https://debatelab.philosophie.kit.edu/'
-    link_website_professional: 'https://www.philosophie.kit.edu/mitarbeiter_betz_gregor.php'
+    link_website: 'https://www.gregorbetz.de/'
   brun:
     link_institution: 'https://www.unibe.ch/index_ger.html'
     link_department: 'https://www.philosophie.unibe.ch/index_ger.html'
-    link_website_professional:
+    link_website: 'https://www.georgbrun.ch/'
+  lohse:
+    link_institution: 'https://www.kit.edu/'
+    link_department: 'https://debatelab.philosophie.kit.edu/'
+    link_website: 'https://richard-lohse.com/'
   
