@@ -9,7 +9,11 @@ sidebar_sort_order: 1
 
 **University of Bern**
 
-*Claus Beisbart, Georg Brun , Tanja Rechnitzer.*
+<figure style="width:70%; display: block; margin-left: auto; margin-right: auto;"> 
+    <img src="{{ '/assets/img/RE2-Team.JPG' | relative_url }}">  
+    <figcaption style="font-size: 16px; text-align: center;">Claus Beisbart, Tanja Rechnitzer, Georg Brun</figcaption> 
+</figure> 
+
 
 The goal of this project was to work out the details of the method of reflective equilibrium, to apply it to an important ethical issue in a case-study and to evaluate the method.
 
