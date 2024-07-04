@@ -2,7 +2,7 @@
 layout: page
 title: Related Projects
 sidebar_link: true
-sidebar_sort_order: 1
+sidebar_sort_order: 2
 ---
 
 ## Reflective Equilibrium – Reconception and Application (2014–2018)
